@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
+
 public class PowerLevelScouter {
 
     public Integer scout(String name, Function<String,Integer> powerRule){
