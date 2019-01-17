@@ -15,8 +15,8 @@ public class PowerLevelScouter {
        return sum;
     }
 
-    Function<String,Integer> power = s->(int)s.charAt(0);
-    Function<String,Integer> powerEnhanced = s->(int)s.toLowerCase().charAt(0);
+  //  Function<String,Integer> power = s->(int)s.charAt(0);
+  //  Function<String,Integer> powerEnhanced = s->(int)s.toLowerCase().charAt(0);
 
 
 }

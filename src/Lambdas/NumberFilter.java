@@ -22,11 +22,11 @@ public class NumberFilter {
      List<Integer> getEven(List<Integer> mixedNumbrs){
         Predicate<Integer> conditionEven = integer -> integer % 2 == 0;
     return filterNums(conditionEven,mixedNumbrs);
-    }
+     }
 
 
      List<Integer> getOdd(List<Integer> mixedNumbers){
-        Predicate<Integer> conditionOdd = integer -> integer % 2 == 1;
+        Predicate<Integer> conditionOdd = integer -> integer % 2 != 0;
         return filterNums(conditionOdd,mixedNumbers);
-    }
+     }
 }
